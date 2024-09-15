@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { PrimerAlertComponent } from '@ngx-primer/primer-ui';
 import { RouterModule } from '@angular/router';
 
 @Component({
   standalone: true,
   imports: [
-    RouterModule,
-    PrimerAlertComponent
+    RouterModule
   ],
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -14,4 +12,5 @@ import { RouterModule } from '@angular/router';
 })
 export class AppComponent {
   title = 'primer-ui-playground';
+  showAlert = true;
 }

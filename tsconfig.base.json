@@ -16,7 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@ngx-primer-ui/alert": ["primer-ui/src/index.ts"],
-      "@ngx-primer/primer-ui": ["packages/src/index.ts"]
+      "@ngx-primer/primer-ui": ["packages/src/index.ts"],
+      "@ngx-primer/primitives": ["packages/primitives/src/index.ts"],
+      "ngx-primer-primitives": ["packages/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
