@@ -19,7 +19,9 @@
     "express": "~4.18.2",
     "rxjs": "~7.8.0",
     "tailwind": "4.0.0",
+    "tailwind-merge": "2.5.2",
     "tslib": "^2.3.0",
+    "tw-merge": "0.0.1-alpha.3-dev.0b5a5959a838eb88c82f95d3b3d799d21fb9ecc1",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
