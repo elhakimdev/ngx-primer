@@ -19,7 +19,7 @@ jobs:
       # Learn more at https://nx.dev/ci/reference/nx-cloud-cli#npx-nxcloud-startcirun
       - run: pnpm dlx nx-cloud start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after="e2e-ci"
 
-      - run: pnpm install --no-frozen-lockfile
+      - run: pnpm install
       - nx/set-shas:
           main-branch-name: 'main'
 
